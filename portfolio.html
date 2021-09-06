@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/portfolio.css" type="text/css">
+<link rel="stylesheet" href="css/animations.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/homestyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/sidebar-accordion.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="css/contact.css">
+</head>
+<body style="background-color:#cffcf6">
+<header>
+<div id="divs" style="display:block" >
+<span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span>
+<b id="heading">Interia</b>
+</div>
+<div class="open" id="bar">
+<div class="contenedor-menu">
+		<!-- <a href="" class="btnMenu">Menu <i class="fa fa-bars"></i></a> -->
+
+		<ul class="menu">
+			<li><a href="#" onclick="window.close()">Home</a></li>
+			<li><a href="#"><i class="fa fa-chevron-down"></i>About</a>
+				<ul>
+					<li><a href="#" onclick="window.open('aboutus.html',target='_self')">About Us</a></li>
+					<li><a href="#" onclick="window.open('process.html',target='_self')">Process</a></li>
+				</ul>
+			</li>
+                        <li><a href="#">Services<i class="fa fa-chevron-down"></i></a>
+				<ul>
+					<li><a href="#" onclick="window.open('client.html',target='_self')">Clients</a></li>
+					<li><a href="#" onclick="window.open('career.html',target='_self')">Career</a></li>
+                                        <li><a href="#" onclick="window.open('price.html',target='_self')">Pricing</a></li>
+					<li><a href="#" onclick="window.open('faq.html',target='_self')">FAQs</a></li>
+				</ul>
+			</li>
+			<li><a href="#" onclick="window.open('portfolio.html',target='_self')">Portfolio</a></li>
+			<li><a href="#" onclick="window.open('blog.html',target='_self')">Blog</a></li>
+			<li><a href="#" onclick="window.open('contact.html',target='_self')">Contact</a></li>
+		</ul>
+	</div>
+</div>
+</header><br><br><br>
+<div id="portfolio" style="background-color:white">
+<div class="portfolio-hero-image" style="margin:0px">
+	<div class="flip-box">
+ 			 <div class="flip-box-inner">
+    			<div class="flip-box-front">
+     			<img src="images/h1.jpeg" alt="Images" height="600px" style="width:100%">
+    			</div>
+   			<div class="flip-box-back">
+     			<img src="images/h11.jpeg" alt="Images" height="600px" style="width:100%">
+   			</div>
+  			</div>
+			</div>	
+
+
+<div class="portfolio-hero-text">
+<h1 class="portfolio-h1" style="color:#338585"><b>Portfolio</b></h1>
+</div>
+</div>
+<br>
+<h2 style="color:#293858;text-align:center;font-size:35px;margin-left:10px"><b>OUR PROJECTS</b></h2>
+<br>
+<br>
+<div style="background-color:#cffcf6">
+<div class="portmain">
+<div id="portfoliomyBtnContainer">
+  <button class="portbtn active" onclick="filterSelection('all')">All</button>
+  <button class="portbtn" onclick="filterSelection('living')">Living</button>
+  <button class="portbtn" onclick="filterSelection('bedroom')">Bedroom</button>
+  <button class="portbtn" onclick="filterSelection('dining')">Dining</button>
+  <button class="portbtn" onclick="filterSelection('office')">Office</button>
+  <button class="portbtn" onclick="filterSelection('restaurant')">Restaurant</button>
+  <button class="portbtn" onclick="filterSelection('hospital')">Hospital</button>
+  <button class="portbtn" onclick="filterSelection('furniture')">Furniture</button>
+  <button class="portbtn" onclick="filterSelection('commercial')">Commercial</button>
+</div>
+<div class="portrow" style="background-color:#c71585">
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h2.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4>Ceramica Mayor</h4>
+      <p>The chromatic neutrality of this collection ,inspired in the texture of of polished concrete is a reflection of new trends in architecture.</p>
+    </div>
+  </div>
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h3.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4 style="font-size:20px">White blow</h4>
+      <p>As this type of design is very specific for individual situations, the needs and wants of the individual are paramount in this area of design.</p>
+    </div>
+  </div>
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h4.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4 style="font-size:20px">Roman Kolyada</h4>
+      <p>This modern eclectic living room is coloured under baubles. Eastern pieces in a Turkish rug and wooden table cube give it a character.</p>
+    </div>
+  </div>
+
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h5.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4>Delightful</h4>
+      <p>Upon a floor in lino and wall in light wood, pops of white and glass mingle amongst a flower case making it more spacy and delightful.</p>
+    </div>
+  </div>
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h6.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4>Flos</h4>
+      <p>Make your living room sophisticated. Having a beautiful zigzag staircase next to your seating making it look trendy.</p>
+    </div>
+  </div>
+  <div class="portcolumn living">
+    <div class="portcontent">
+      <img src="images/living/h9.jpeg" alt="Living" style="width:100%" class="portimg">
+      <h4>Classic</h4>
+      <p>Having sofa colors similar to wall adding up a modern look of reality makes the living look spacious and descent.</p>
+    </div>
+  </div>
+
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b1.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Texture</h4>
+      <p>The ornamental ceiling feature and a small case above the bed set our dreams on fire.</p>
+    </div>
+  </div>
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b2.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Cute look</h4>
+      <p>A room with cute color combinations and beautiful pots with smooth backwall makes it look fabulous.</p>
+    </div>
+  </div>
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b3.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Lights</h4>
+      <p>Think of a room with chandelier lightings hanging as simple as this is gives simply grand look.</p>
+    </div>
+  </div>
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b4.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Descent</h4>
+      <p>Having a geometric backwall with attached lightings and small room is a surprise too.</p>
+    </div>
+  </div>
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b5.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Woody</h4>
+      <p>A room with wooden items brings the art of nature along with them.</p>
+    </div>
+  </div>
+  <div class="portcolumn bedroom">
+    <div class="portcontent">
+      <img src="images/bedroom/b6.jpeg" alt="Bedroom" style="width:100%" class="portimg">
+      <h4>Filmy</h4>
+      <p>Those that like a filmy bedroom can have long back wall that gains attention.</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d1.jpeg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Creative</h4>
+      <p>Unlike other dining rooms this doesn't use large lights but small ones at the ends with wood fits fine.</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d2.jpg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Artistic</h4>
+      <p>A large wooden table is classic but if you want to inspire creativity opt for ordered one like this.</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d3.jpg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Minimalist</h4>
+      <p>Ever thought of a soothing, lighted, artistic and clen-lined furnitured dining like this.</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d4.jpg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Multipurpose</h4>
+      <p>Have a dining table that is useful for both decoration and having food. That looks cool!</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d5.jpg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Make everything count</h4>
+      <p>Think of a curved seating and the surrounding look just as fit for the dining, it looks realistic.</p>
+    </div>
+  </div>
+  <div class="portcolumn dining">
+    <div class="portcontent">
+      <img src="images/dining/d6.jpg" alt="Dining" style="width:100%" class="portimg">
+      <h4>Think about Dimension</h4>
+      <p>Having a beautiful chandelier with curved table and well-furnished large chairs is an art.</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o1.png" alt="Office" style="width:100%" class="portimg">
+      <h4>Attractive lounge</h4>
+      <p>When we see a flashy lounge with rolling furnitures it will enhance the fun in us too.</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o2.png" alt="Office" style="width:100%" class="portimg">
+      <h4>Beauty</h4>
+      <p>When the seating has window view to all and an art of wall like this it sure attracts everyone.</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o3.jpeg" alt="Office" style="width:100%" class="portimg">
+      <h4>Trendy</h4>
+      <p>Want to have a meeting with colleagues have a eye catching furniture like this that looks descent.</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o4.jpeg" alt="Office" style="width:100%" class="portimg">
+      <h4>Official</h4>
+      <p>Chairs sit back in warmly wood clad surroundings will give a feel of cabin. Simply wonderful!</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o5.jpeg" alt="Office" style="width:100%" class="portimg">
+      <h4>Relaxing</h4>
+      <p>A desk can be placed anywhere near sofa matches span of the desk and gives chance for relaxation.</p>
+    </div>
+  </div>
+  <div class="portcolumn office">
+    <div class="portcontent">
+      <img src="images/office/o6.png" alt="Office" style="width:100%" class="portimg">
+      <h4>Open</h4>
+      <p>Open space everywhere, having a fun time with people around and thin furnishing.</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r1.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Smooth</h4>
+      <p>Having a smooth sofa cum chair seating, ceiling lights is good option for spending relaxation</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r2.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Futuristic</h4>
+      <p>Think of seperate table-lamp for every table can increase chances at dim days.</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r3.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Wooden surrounding</h4>
+      <p>When everything around is wooden with wooden lighting gives a rustic and official look.</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r4.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Earthly</h4>
+      <p>Ever seen a forestic surrounded dining giving a look of having food in nature seating.</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r5.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Homely</h4>
+      <p>Thinking of a homely restaurant will attract all migrants and also helps in privacy too.</p>
+    </div>
+  </div>
+  <div class="portcolumn restaurant">
+    <div class="portcontent">
+      <img src="images/restaurant/r6.jpg" alt="Restaurant" style="width:100%" class="portimg">
+      <h4>Cozy</h4>
+      <p>When there are cushions around the restaurants, people become more comfortable to seating.</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho1.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Spacious</h4>
+      <p>When a reception office is having open surrounding it looks quite spacious for all.</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho2.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Calm looks</h4>
+      <p>Seeing a healthcare look white as always, this looks more attractive too.</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho3.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Curvy corridors</h4>
+      <p>When receptions are curved and walls have bright colors imparts positive vibes.</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho4.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Fabulous</h4>
+      <p>Ever seen a hospital with waining room as such with sofas. This is new!</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho5.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Lighted</h4>
+      <p>A beautiful ceiling design with seating below it gives a calm look around for people.</p>
+    </div>
+  </div>
+  <div class="portcolumn hospital">
+    <div class="portcontent">
+      <img src="images/hospital/ho6.jpg" alt="Hospital" style="width:100%" class="portimg">
+      <h4>Positive</h4>
+      <p>When there's a fantastic seating like this hospital looks family place too.</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f1.jpeg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Cushiony</h4>
+      <p>Cushions are the most comfortable seatings and a color as this attracts everyone.</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f2.jpg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Cupboards</h4>
+      <p>Having a small cupboard like this increases space and the look of it is amazing for wall</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f3.jpeg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Chairs</h4>
+      <p>When there are chairs as relaxing as this with no color is good for a relaxing living room.</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f4.jpg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Working chair</h4>
+      <p>A chair suited for a table and the vase decorations is best near window areas.</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f5.jpeg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Chair</h4>
+      <p>Relaxing wooden chairs with cushions is a good choice.</p>
+    </div>
+  </div>
+  <div class="portcolumn furniture">
+    <div class="portcontent">
+      <img src="images/furnitures/f6.jpg" alt="Furniture" style="width:100%" class="portimg">
+      <h4>Sofa chair</h4>
+      <p>This is very comforting ,grand ,simple and relaxing chair suits all kinds of seating.</p>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c1.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Hangout place</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c2.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Beautiful halls</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c3.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Small trendy office</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c4.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Best unofficial hangout</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c5.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Colorful dine</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c6.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Spiral designed canteens</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c7.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Cafe with open look</h4>
+    </div>
+  </div>
+  <div class="portcolumn commercial">
+    <div class="portcontent">
+      <img src="images/commercial/c8.jpg" alt="Commercial" style="width:100%" class="portimg">
+      <h4>Cafe with meet place</h4>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="port-rec" style="background-color:#b3b3ff;margin-top:0px;color:white;font-weight:bold">
+<br>
+<h1 class="portfolio-h1" style="font-size:30px;color:teal;margin-left:2px"><b><u>Interior design quotes</u></b></h1>
+<p style="font-family:'Verdana',san-serif;font-weight:bold;margin:20px;text-align:justify;font-size:20px;padding:2px;line-height:1.5"><b>Great design matter! You know it, we know it. We bet you'll be impressed not only with it's look and feel , but also the functionalities and customization interia can offer you. Great design is just an icing on the cake.</b></p>
+
+<div id="port-review">
+<div class="port-slideshow-container">
+
+  <div class="port-mySlides client-fade">
+    <div class="port-numbertext">1 / 5</div>
+    <div class="port-text"><div id="port-con"><img src="images/user.png" alt="Images" class="port-slid-imag" height="35px" width="35px"></div>"Be faithful to your own taste, because nothing you really like is ever out of style"<br><h4 style="color:black">Billy Baldwin, American interior decorator</h4></p></div>
+  </div>
+
+  <div class="port-mySlides client-fade">
+    <div class="port-numbertext">2 / 5</div>
+    <div class="port-text"><div id="port-con"><img src="images/user.png" alt="Images" class="port-slid-imag" height="35px" width="35px"></div>"Your home should tell the story of who you are, and a collection of what you love"<br><h4 style="color:black">Nate Berkus, American Interior designer, author and tv personality</h4></p></div>
+  </div>
+
+  <div class="port-mySlides client-fade">
+    <div class="port-numbertext">3 / 5</div>
+    <div class="port-text"><div id="port-con"><img src="images/user.png" alt="Images" class="port-slid-imag" height="35px" width="35px"></div>"Kitchens should be designed around what's really important: fun, food and life"<br><h4 style="color:black">David Boulud, French chef and restauranteur</h4></p></div>
+  </div>
+ 
+  <div class="port-mySlides client-fade">
+    <div class="port-numbertext">4 / 5</div>
+    <div class="port-text"><div id="port-con"><img src="images/user.png" alt="Images" class="port-slid-imag" height="35px" width="35px"></div>"Don't be afraid to experiment- not everything has to match. A house that is 100% perfect is rarely full of charm"<br><h4 style="color:black">Rebecca de Ravenel, New York interior designer</h4></p></div>
+  </div>
+
+  <div class="port-mySlides client-fade">
+    <div class="port-numbertext">5 / 5</div>
+    <div class="port-text"><div id="port-con"><img src="images/user.png" alt="Images" class="port-slid-imag" height="35px" width="35px"></div>"A room should start a converation before people actually start exchanging words"<br><h4 style="color:black">Barry Dixon, Interior designer</h4></p></div>
+  </div>
+
+  <a class="port-prev" onclick="portplusSlides(-1)">&#10094;</a>
+  <a class="port-next" onclick="portplusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="port-dot" onclick="currentSlide(1)"></span>
+  <span class="port-dot" onclick="currentSlide(2)"></span>
+  <span class="port-dot" onclick="currentSlide(3)"></span>
+  <span class="port-dot" onclick="currentSlide(4)"></span>
+  <span class="port-dot" onclick="currentSlide(5)"></span>  
+</div>
+<br>
+<br>
+</div>
+</div>
+
+</div>
+<hr>
+<footer class="foot" style="text-align:center">
+<br>
+<br>
+<div id="call" style="color:white;font-size:20px">
+<h1 style="font-family:'Times New Roman',serif">Let's design together</h1>
+<p style="text-align:center;font-family:'Verdana',san-serif;font-weight:500;font-size:20px;margin:20px;padding:2px;line-height:1.5;color:white"><b>One of the main reasons we became interior designers was because we love collecting and then putting it all together. But when you're designing your own house ,the hardest thing is to finish it, as you're always adding your next favourite thing, and finally there's no space left.</b></p>
+<br>
+<button type="button" class="con-effect" style="vertical-align:middle;background-color:white;margin:20px;max-width:100px;border-radius:5%" onclick="window.open('index.html',target='_self')"><span>Interia</span></button>
+<br><br>
+<h1 style="font-family:'Times New Roman',serif">Contact</h1>
+<br>
+<div id="icon-cont" style="margin-left:15px">
+<a class="fas fa-map-marker-alt" style="font-size:20px;margin-left:2px"> #22 MG street Bhopal Madhya Pradesh</a><br>
+<a href="tel:7022236353" class="fa fa-phone-alt" style="font-size:20px;color:white">+8138476875</a><br>
+<a href="tel:7022236353" class="fa fa-phone-alt" style="font-size:20px;color:white">+91456748564</a><br>
+<a href="tel:7022236353" class="fa fa-phone-alt" style="font-size:20px;color:white">080765383898</a><br>
+<a href="mailto:office@interia.co.au" class="fas fa-paper-plane" style="font-size:20px;color:white;margin-left:2px">office@interia.com.au</a><br>
+<a href="mailto:office@interia.co.au" style="font-size:20px;color:white;margin-left:2px" class='fas fa-envelope-open-text'>contact@interia.com.au</a>
+<br><br>
+</div>
+<button type="button" class="con-effect" style="vertical-align:middle;background-color:white;margin:20px;max-width:100px;border-radius:5%" onclick="window.open('price.html',target='_self')"><span>Estimate</span></button>
+<br><br>
+<h1 style="font-family:'Times New Roman',serif">Social</h1><br>
+<div id="icons" style="display:inline:block">
+<a href="#" class="fab fa-facebook-f"></a>
+<a href="#" class="fab fa-twitter"></a>
+<a href="#" class="fab fa-instagram"></a>
+<a href="#" class="fab fa-linkedin"></a>
+<a href="#" class="fab fa-youtube"></a>
+</div><br>
+<h3 class="h" style="font-family:'Zapf chancery',cursive'"> Interior designing</h3>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Sidebar Accordion JS -->
+<script src="js/sidebar-accordion.js"></script>
+<script src="js/portfolio.js" type="text/javascript">
+</script>
+</body>
+</html>

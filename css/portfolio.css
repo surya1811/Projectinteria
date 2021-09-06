@@ -1,0 +1,644 @@
+.portfolio-h1{
+color:black;
+//background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:50px;
+}
+
+.portfolio-hero-image{
+//opacity:0.5;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.portfolio-hero-text{
+font-family:"Zapf-Chancery",cursive;
+//opacity:1;
+text-align:left;
+position:absolute;
+top:10%;
+left:8%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:25px;
+transform:translate(-50%,-50%);
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family: Arial;
+}
+
+/* Center website */
+.portmain {
+  max-width: 1200px;
+  margin: auto;
+}
+
+porth1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.portrow {
+  margin: 8px -16px;
+	text-align:center;
+	}
+
+/* Add padding BETWEEN each column (if you want) */
+.portrow,
+.portrow > .portcolumn {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.portcolumn {
+  float: left;
+  width: 33.33%;
+  //height:500px;
+  max-width:600px;
+  max-height:600px;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.portrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.portcontent {
+  background-color:#ff69b4;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.portshow {
+  display: block;
+}
+
+/* Style the buttons */
+.portbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+   cursor: pointer;
+  font-size:20px;
+	color:white;
+  background-color:#000;
+ opacity: 0.6;
+  transition: 0.3s;
+	font-size:27px;
+}
+
+.portbtn:hover {opacity: 1}
+ 
+
+
+/* Add a dark background color to the active button */
+.portbtn.active {
+  background-color: #666;
+   color: white;
+}
+
+.portimg{
+width:300px;
+height:300px;
+}
+
+.portimg:hover{
+width:350px;
+height:350px;
+border:4px groove #99b3ff;
+}
+
+
+#port-review{box-sizing:border-box}
+
+/* Slideshow container */
+.port-slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  //padding:5px;
+}
+
+/* Hide the images by default */
+.port-mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.port-prev, .port-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  background-color:#bbb;
+  font-weight: bold;
+  font-size: 18px;
+  //border:2px solid white;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.port-next{
+  left:50;
+  margin-left:650px;
+  border-radius: 3px 0 0 3px;
+}
+
+.port-prev{
+  right:50;
+  margin-left:110px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.port-prev:hover, .port-next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.port-text {
+  color:teal;
+  font-size: 20px;
+  padding: 12px 16px;
+  position: absolute;
+  bottom: 10px;
+  left:200px;
+  width: 50%;
+  text-align:center;
+}
+
+/* Number text (1/3 etc) */
+.port-numbertext {
+  color:teal;
+  font-size: 17px;
+  padding: 10px 14px;
+  position: absolute;
+  top:30px;
+  left:370px;
+}
+
+/* The dots/bullets/indicators */
+.port-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.port-active, .port-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.port-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: port-fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.port-slide-imag{
+border-radius:50%;
+}
+
+
+#port-review{
+margin-left:-50px;
+margin-top:280px;
+}
+
+@media screen and (max-width:480px){
+
+.portfolio-hero-text{
+font-family:"Zapf-Chancery",cursive;
+//opacity:1;
+text-align:left;
+position:absolute;
+top:10%;
+left:15%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:25px;
+transform:translate(-50%,-50%);
+}
+.portfolio-h1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:35px;
+}
+
+.portmain {
+  max-width: 480px;
+  margin: auto;
+  overflow:hidden;
+}
+
+.portrow {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.portrow,
+.portrow > .portcolumn {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.portcolumn {
+  float: left;
+  width: 50%;
+  //height:500px;
+  max-width:250px;
+  max-height:450px;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.portrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.portcontent {
+  background-color: white;
+  padding: 5px;
+}
+
+/* The "show" class is added to the filtered elements */
+.portshow {
+  display: block;
+}
+
+/* Style the buttons */
+.portbtn {
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  background-color: white;
+  cursor: pointer;
+  font-size:20px;
+}
+
+/* Add a grey background color on mouse-over */
+.portbtn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.portbtn.active {
+  background-color: #666;
+   color: white;
+}
+
+.portimg{
+width:180px;
+height:180px;
+}
+
+.portimg:hover{
+width:200px;
+height:200px;
+border:4px groove #99b3ff;
+}
+/* Position the "next button" to the right */
+.port-next{
+  left:0;
+  margin-left:100px;
+  border-radius: 3px 0 0 3px;
+}
+
+.port-prev{
+  right:20;
+  margin-left:50px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.port-prev:hover, .port-next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.port-text {
+  color:teal;
+  font-size: 20px;
+  padding: 12px 16px;
+  position: absolute;
+  bottom: 5px;
+  left:140px;
+  width: 50%;
+  text-align:center;
+}
+
+/* Number text (1/3 etc) */
+.port-numbertext {
+  color:teal;
+  font-size: 17px;
+  padding: 10px 14px;
+  position: absolute;
+  top:30px;
+  right:100px;
+}
+
+/* The dots/bullets/indicators */
+.port-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  //left:400px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.port-active, .port-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.port-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: port-fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slide-imag{
+border-radius:50%;
+}
+.port-slideshow-container {
+  max-width:420px;
+  position: relative;
+  margin: auto;
+  //padding:5px;
+}
+
+
+#port-review{
+margin-left:10px;
+margin-top:300px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:640px){
+.portfolio-hero-text{
+font-family:"Zapf-Chancery",cursive;
+//opacity:1;
+text-align:left;
+position:absolute;
+top:10%;
+left:17%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:25px;
+transform:translate(-50%,-50%);
+}
+
+.portmain {
+  max-width: 640px;
+  margin: auto;
+  overflow:hidden;
+}
+
+.portrow {
+  margin: 10px -18px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.portrow,
+.portrow > .portcolumn {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.portcolumn {
+  float: left;
+  width: 50%;
+  //height:500px;
+  max-width:300px;
+  max-height:500px;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.portrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.portcontent {
+  background-color: white;
+  padding: 5px;
+}
+
+/* The "show" class is added to the filtered elements */
+.portshow {
+  display: block;
+}
+
+/* Style the buttons */
+.portbtn {
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  background-color: white;
+  cursor: pointer;
+  font-size:20px;
+}
+
+/* Add a grey background color on mouse-over */
+.portbtn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.portbtn.active {
+  background-color: #666;
+   color: white;
+}
+
+.portimg{
+width:180px;
+height:180px;
+}
+
+.portimg:hover{
+width:200px;
+height:200px;
+border:4px groove #99b3ff;
+}
+
+.port-slideshow-container {
+  max-width:480px;
+  position: relative;
+  margin: auto;
+  //padding:5px;
+}
+
+/* Hide the images by default */
+.port-mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.port-prev, .port-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  background-color:#bbb;
+  font-weight: bold;
+  font-size: 18px;
+  //border:2px solid white;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.port-next{
+  left:0;
+  margin-left:340px;
+  border-radius: 3px 0 0 3px;
+}
+
+.port-prev{
+  right:10;
+  margin-left:100px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.port-prev:hover, .port-next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.port-text {
+  color:teal;
+  font-size: 20px;
+  padding: 12px 16px;
+  position: absolute;
+  bottom: 5px;
+  left:120px;
+  width: 50%;
+  text-align:center;
+}
+
+/* Number text (1/3 etc) */
+.port-numbertext {
+  color:teal;
+  font-size: 17px;
+  padding: 10px 14px;
+  position: absolute;
+  top:30px;
+  left:210px;
+}
+
+/* The dots/bullets/indicators */
+.port-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  left:150px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.port-active, .port-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.port-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: port-fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes port-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slide-imag{
+border-radius:50%;
+}
+
+
+#review-port{
+margin-left:-50px;
+margin-top:280px;
+}
+}

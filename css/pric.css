@@ -1,0 +1,159 @@
+.priceh1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:50px;
+}
+
+.pricehero{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.pricetext{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:7%;
+left:11%;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+
+.images1
+{
+max-width:400px;
+max-height:600px;
+display:block;
+}
+
+/* Three columns side by side */
+.columns {
+  float: left;
+  width: 33.3%;
+  max-width:400px;
+  //max-height:500px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+#mleft{
+margin-left:70px;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .columns {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .rows::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width:200px;
+	font-size:25px;
+}
+
+@media screen and (max-width:480px){
+.pricetext{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:7%;
+left:16%;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+
+
+.rows{
+overflow:hidden;
+margin-left:0px;
+}
+
+.columns{
+margin-left:10px;
+}
+
+.images1
+{
+max-width:300px;
+max-height:400px;
+display:block;
+}
+#mleft{
+margin-left:10px;
+}
+#mleft1{
+margin-left:10px;
+}
+#mleft2{
+margin-left:10px;
+}
+}
+
+@media screen and (max-width:640px){
+.priceh1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:35px;
+}
+.pricetext{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:7%;
+left:11%;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+
+.columns{
+margin-left:70px;
+}
+}
+
+.pbutton {
+  background-color: #000;
+  border: none;
+  color: white;
+  //padding: 16px 32px;
+  text-align: center;
+  //font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.pbutton:hover {opacity: 1}

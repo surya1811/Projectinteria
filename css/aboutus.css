@@ -1,0 +1,457 @@
+.about-hs1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:50px;
+}
+
+.about-heros{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.about-texts{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:10%;
+left:11%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+
+.row1{
+margin:10px 1px;
+}
+
+.row1,
+.row1>.column1{
+padding:10px;
+}
+
+.column1{
+float:left;
+<!--width:14%;
+display:block;-->
+}
+
+.row1:after{
+content:"";
+display:table;
+clear:both;
+}
+
+.content1{
+max-height:600px;
+max-width:700px;
+overflow:hidden;
+//background-color:white;
+padding:20px;
+}
+
+.images1
+{
+max-width:400px;
+max-height:600px;
+display:block;
+}
+
+/* Three columns side by side */
+.columns {
+  float: left;
+  width: 33.3%;
+  max-width:400px;
+  //max-height:500px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .columns {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .rows::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+   opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity:1;
+}
+
+#about-img{
+height:300px;
+width:450px;
+}
+
+#ab1{
+margin-left:70px;
+}
+
+#ab2{
+margin-left:240px;
+}
+
+.row2{
+margin:10px 1px;
+}
+
+.row2,
+.row2>.column2{
+padding:10px;
+}
+
+.column2{
+float:left;
+<!--width:14%;
+display:block;-->
+}
+
+.row2:after{
+content:"";
+display:table;
+clear:both;
+}
+
+.content2{
+max-height:600px;
+max-width:700px;
+overflow:hidden;
+//background-color:white;
+padding:20px;
+}
+
+.images2
+{
+max-width:400px;
+max-height:600px;
+display:block;
+}
+
+.rows{
+text-align:center;
+}
+
+@media screen and (max-width:342px){
+.about-hs1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+//font-weight:500;
+font-size:20px;
+}
+
+.columns {
+    width: 100%;
+    display: block;
+    //float:left;
+    //overflow:hidden;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left:-8px;
+  margin-right:3px;
+}
+
+
+/* Three columns side by side */
+.columns {
+  float: left;
+  width: 100%;
+  //max-width:250px;
+  //max-height:500px;
+  //margin-bottom: 16px;
+ // margin-left:-3px;
+  padding: 0 2px;
+}
+
+#abouth{
+font-size:35px;
+}
+
+.about-heros{
+max-width:100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.about-texts{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:10%;
+left:56%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+/*#ab1{
+margin-left:0px;
+}
+
+#ab2{
+margin-left:0px;
+}
+#ab3{
+margin-left:0px;
+}
+#ab4{
+margin-left:0px;
+}
+#ab5{
+margin-left:0px;
+}*/
+
+/*.rows{
+text-align:left;
+margin-left:0px;
+}*/
+#about-img{
+height:250px;
+width:250px;
+}
+
+.images1{
+width:200px;
+}
+
+#about-row{
+text-align:left;
+//margin:left:0px;
+}
+}
+
+@media screen and (max-width:480px){
+.about-hs1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+//font-weight:500;
+font-size:20px;
+}
+
+.columns {
+    width: 100%;
+    display: block;
+    //float:left;
+    //overflow:hidden;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left:-50px;
+  margin-right:10px;
+}
+
+
+/* Three columns side by side */
+.columns {
+  float: left;
+  //width: 100%;
+  max-width:300px;
+  //max-height:500px;
+  //margin-bottom: 16px;
+  padding: 0 2px;
+}
+
+#abouth{
+font-size:35px;
+}
+
+.about-heros{
+max-width:100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.about-texts{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:10%;
+left:56%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+#ab1{
+margin-left:0px;
+}
+
+#ab2{
+margin-left:0px;
+}
+#ab3{
+margin-left:0px;
+}
+#ab4{
+margin-left:0px;
+}
+#ab5{
+margin-left:0px;
+}
+
+/*.rows{
+text-align:left;
+margin-left:0px;
+}*/
+#about-img{
+height:250px;
+width:250px;
+}
+
+#about-row{
+text-align:left;
+//margin:left:0px;
+}
+}
+
+@media screen and (max-width:640px){
+.about-hs1{
+color:black;
+background-color:#ddd;
+font-family:'Times New Roman',serif;
+font-weight:500;
+font-size:50px;
+}
+
+.about-heros{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.about-texts{
+font-family:"Zapf-Chancery",cursive;
+text-align:left;
+position:absolute;
+top:10%;
+left:21%;
+//height:100%;
+//border:2px solid #f1f1f1;
+padding:20px;
+transform:translate(-50%,-50%);
+}
+#ab1{
+margin-left:100px;
+}
+
+#ab2{
+margin-left:100px;
+}
+#ab3{
+margin-left:100px;
+}
+#ab4{
+margin-left:100px;
+}
+#ab5{
+margin-left:100px;
+}
+.rows{
+text-align:center;
+}
+}
+
+.flip-box {
+  width: 100%;
+  height:600px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: fixed;
+  width: 100%;
+height:600px;
+   transition: transform 3.9s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(-180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position:fixed;
+  width: 100%;
+  height:600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  
+}
+
+.flip-box-back {
+   transform: rotateX(-180deg);
+}
+
+.flip:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s;
+  //width: 300px;
+  //height: 170px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
